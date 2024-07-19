@@ -1,0 +1,28 @@
+:root {
+    --system-colors-overlays-activity-view-controller: rgba(0, 0, 0, 0.12);
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-system-colors-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+  [data-system-colors-mode="light"] {
+    --system-colors-overlays-activity-view-controller: rgba(0, 0, 0, 0.12);
+  }
+  
+  [data-system-colors-mode="dark"] {
+    --system-colors-overlays-activity-view-controller: rgba(0, 0, 0, 0.29);
+  }
+  
+  [data-system-colors-mode="dark-elevated"] {
+    --system-colors-overlays-activity-view-controller: rgba(0, 0, 0, 0.29);
+  }
+  
